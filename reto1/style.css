@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: rgb(155, 105, 105);
+    color: rgba(190, 64, 10, alpha);
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pictures-index{
+    margin: 15px 2%;
+    width: 40%;
+    border-radius: 15%;
+    border: 5px solid lightyellow;
+}
+
+.network{
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0;
+}
