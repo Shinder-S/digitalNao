@@ -7,8 +7,27 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
-    background-color: rgb(155, 105, 105);
+    background-color: rgba(176, 221, 206, 0.808);
     color: rgba(190, 64, 10, alpha);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #6486a1f1;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
 }
 
 .pictures{
@@ -24,17 +43,29 @@ body{
     border: 5px solid rgb(106, 86, 139);
 }
 
+p{
+    padding: 25px;
+}
+
+#join{
+    color: #252A2E;
+    background-color: #6486a1f1;
+}
+
+.contact{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
 footer{
     background-color: #252A2E;
     color: #fafafa;
-    padding: 50px 0 30px 0;
+    padding: 25px;
     text-align: center;
     position: relative;
     width: 100%;
-}
-
-footer .network{
-    margin-bottom: 20px;
 }
 
 footer .network a{
