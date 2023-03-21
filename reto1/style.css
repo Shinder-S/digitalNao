@@ -29,13 +29,9 @@ header{
 h1{
     text-align: center;
 }
-
-.pictures{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #252A2E;
 }
-
 .pictures-index{
     margin: 15px 2%;
     width: 40%;
@@ -55,8 +51,17 @@ p{
 .contact{
     display: flex;
     margin: auto;
-    padding: 20px;
     justify-content: space-evenly;
+}
+
+.form-control{
+    border-radius: 1rem;
+}
+
+.btn{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
 }
 
 footer{
