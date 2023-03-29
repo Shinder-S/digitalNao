@@ -29,9 +29,16 @@ header{
 h1{
     text-align: center;
 }
+
+.logo{
+    width: 70px;
+    border-radius: 15%;
+}
+
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: #252A2E;
 }
+
 .pictures-index{
     margin: 15px 2%;
     width: 40%;
